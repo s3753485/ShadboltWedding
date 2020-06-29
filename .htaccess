@@ -1,0 +1,4 @@
+AuthUserFile .\lock\.htpasswd
+AuthType Basic
+AuthName "My Secret Folder"
+Require valid-user
