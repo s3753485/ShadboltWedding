@@ -87,9 +87,10 @@ main {
 /* Slideshow container */
 .slideshow-container {
   width: 1000px;
-    height: 500px;
+  height: 500px;
   position: relative;
   margin: auto;
+  background-color: white;
 }
 
 /* Caption text */
