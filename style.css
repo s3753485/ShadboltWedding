@@ -11,8 +11,21 @@ body {
     line-height: 1.5;
 }
 
+
 main {
     background-image: url('./media/background.jpg')
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+#content {
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
 }
 
 #navbar {
