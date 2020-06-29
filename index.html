@@ -7,8 +7,7 @@
 	<!-- meta http-equiv="X-Frame-Options" content="deny" -->
 	<title>Shadbolt Wedding</title>
 	<link id='stylecss' type="text/css" rel="stylesheet" href="style.css">
-            <script src='script.js'></script>
-    
+	<script src='script.js'></script>
 </head>
 
 <body>
@@ -38,56 +37,77 @@
 		<div style="text-align:center"> <span class="dot"></span>  <span class="dot"></span>  <span class="dot"></span>  <span class="dot"></span> 
 		</div>
 	</header>
-	<div id="navbar"> 
-        <a href="http://www.shadbolt.xyz/index.html#Location">Item1</a> 
-        <a href="">Item2</a> 
-        <a href="https://youtu.be/-nJR6VBJRXg">Live wedding link</a> 
-    </div>
+	<div id="navbar"> <a href="http://www.shadbolt.xyz/index.html#Location">Item1</a>  <a href="">Item2</a>  <a href="https://youtu.be/-nJR6VBJRXg">Live wedding link</a> 
+	</div>
 	<main>
+		<section id="content">
+			<div class="main-content-wrapper cf" data-content-field="main-content">
+				<!-- CATEGORY NAV -->
+				<div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1452722590472" id="page-53c828c4e4b03157ad23aaba">
+					<div class="row sqs-row">
+						<div class="col sqs-col-12 span-12">
+							<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-198884ca5da839ae370b">
+								<div class="sqs-block-content">
+									<h1 class="text-align-center">You're invited to our wedding on Month,Day, Year<br>Some Place</h1>
+									<p class="text-align-center">Some street number
+										<br>Some country
+										<br>Some number</p>
+									<p class="text-align-center">&nbsp;</p>
+									<h2 class="text-align-center">A reception time</h2>
+									<h3 class="text-align-center">Some resort</h3>
+									<p class="text-align-center">Some address
+										<br>Some Country
+										<br>Some number</p>
+									<h3 class="text-align-center">&nbsp;</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 	</main>
-	<footer> </footer>
-        <script>
-            // When the user scrolls the page, execute myFunction
-            window.onscroll = function() {
-                myFunction()
-            };
-
-            // Get the navbar
-            var navbar = document.getElementById("navbar");
-
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
-
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
+	<footer></footer>
+	<script>
+		// When the user scrolls the page, execute myFunction
+		            window.onscroll = function() {
+		                myFunction()
+		            };
 		
-				            var slideIndex = 0;
-		showSlides();
+		            // Get the navbar
+		            var navbar = document.getElementById("navbar");
 		
-		function showSlides() {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("dot");
-		  for (i = 0; i < slides.length; i++) {
-		    slides[i].style.display = "none";  
-		  }
-		  slideIndex++;
-		  if (slideIndex > slides.length) {slideIndex = 1}    
-		  for (i = 0; i < dots.length; i++) {
-		    dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";  
-		  dots[slideIndex-1].className += " active";
-		  setTimeout(showSlides, 5000); // Change image every 2 seconds
-		}
-        </script>
+		            // Get the offset position of the navbar
+		            var sticky = navbar.offsetTop;
+		
+		            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		            function myFunction() {
+		                if (window.pageYOffset >= sticky) {
+		                    navbar.classList.add("sticky")
+		                } else {
+		                    navbar.classList.remove("sticky");
+		                }
+		            }
+				
+						            var slideIndex = 0;
+				showSlides();
+				
+				function showSlides() {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  for (i = 0; i < slides.length; i++) {
+				    slides[i].style.display = "none";  
+				  }
+				  slideIndex++;
+				  if (slideIndex > slides.length) {slideIndex = 1}    
+				  for (i = 0; i < dots.length; i++) {
+				    dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				  setTimeout(showSlides, 5000); // Change image every 2 seconds
+				}
+	</script>
 </body>
-
 
 </html>
