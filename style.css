@@ -11,6 +11,10 @@ body {
     line-height: 1.5;
 }
 
+main {
+    background-image: url('./media/background.jpg')
+}
+
 #navbar {
     overflow: hidden;
     background-color: #db1ca8;
