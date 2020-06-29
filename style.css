@@ -70,8 +70,8 @@ main {
 }
 
 .parallaxbanner {
-    background: url('./media/banner.jpg');
-    background-repeat: no-repeat;
+    background: url('./media/background.jpg');
+    background-repeat:repeat ;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
