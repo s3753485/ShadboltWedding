@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    text-rendering: optimizeLegibility
 }
 
 div{
@@ -36,6 +35,16 @@ body {
 #navbar a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .main {
+    padding-top: 60px;
 }
 
 .parallaxResort {
