@@ -70,8 +70,8 @@ main {
     padding-top: 60px;
 }
 
-.parallaxResort {
-    background: url('./media/thailandResort.jpg');
+.parallaxbanner {
+    background: url('./media/banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
