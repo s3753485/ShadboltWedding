@@ -180,6 +180,12 @@ img {
 }
 
 @media (max-width: 700px) {
+    img {
+         position: relative;
+         margin: auto;
+         text-align:center;
+         width: auto;
+}
      .numbertext{
          width:auto;
          text-align:center;
