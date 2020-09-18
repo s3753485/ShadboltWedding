@@ -175,5 +175,48 @@ body {font-family: Verdana, sans-serif;}
     height:500px;
     width:1000px;
 }
-img {vertical-align: middle;}
+img {
+    vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+     .numbertext{
+         width:auto;
+         text-align:center;
+         margin:auto;
+         position:relative;
+         font-weight: normal;
+         font-style: normal;
+    }
+     .story{
+         position: relative;
+         margin: auto;
+         text-align:center;
+         width: auto;
+    }
+     .slideshow-container{
+         width: auto;
+         padding-left: 150px;
+         text-align: left;
+         padding-bottom: 50px;
+    }
+     
+      .dots{
+        width:auto;
+        text-align:center;
+        margin:auto;
+        position:relative;
+        font-family: 'mulders_handwritingregular';
+        font-weight: normal;
+        font-style: normal;
+     }
+     
+     .text {
+        width: 300px; 
+        height: 500px; 
+        text-align: center; 
+        position:relative; 
+        margin: auto;
+     }
+}
 
