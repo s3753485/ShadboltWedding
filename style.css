@@ -217,5 +217,12 @@ body {font-family: Verdana, sans-serif;}
         position:relative; 
         margin: auto;
      }
+    
+    .mySlides {
+         position: relative;
+         margin: auto;
+         text-align:center;
+         width: auto;
+}
 }
 
