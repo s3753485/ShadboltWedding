@@ -185,7 +185,15 @@ body {font-family: Verdana, sans-serif;}
          margin: auto;
          text-align:center;
          width: auto;
-}
+    }
+    
+    #weddingLink {
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+    }
      .numbertext{
          width:auto;
          text-align:center;
@@ -231,6 +239,6 @@ body {font-family: Verdana, sans-serif;}
          margin: auto;
          text-align:center;
          width: auto;
-}
+    }
 }
 
