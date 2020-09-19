@@ -210,10 +210,8 @@ body {font-family: Verdana, sans-serif;}
     }
      .slideshow-container{
          width: auto;
-         padding-left: 150px;
          text-align: left;
-         padding-bottom: 50px;
-         display: none;
+         display: relative;
     }
      
       .dots{
