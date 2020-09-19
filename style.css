@@ -189,6 +189,12 @@ body {font-family: Verdana, sans-serif;}
 }
 @media (max-width: 700px) {
     
+    body {
+    font-weight: 400;
+    line-height: 1.5;
+    width: auto;
+    }
+    
     #weddingLink {
     background-color: #fff;
     width: auto;
