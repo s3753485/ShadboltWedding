@@ -266,7 +266,7 @@ body {font-family: Verdana, sans-serif;}
     padding-top: 10px;
     }
     
-    img{
+    #intro{
     max-width: 250px; 
     max-height: 250px; 
     position: relative;
