@@ -266,8 +266,8 @@ body {font-family: Verdana, sans-serif;}
     }
     
     img{
-    width: auto;
-    height: auto;
+    max-width: 500px; 
+    max-height: 500px; 
     position: relative;
     margin: auto;
     }
