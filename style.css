@@ -254,5 +254,15 @@ body {font-family: Verdana, sans-serif;}
     position: relative;
     margin: auto;
     }
+    
+    .parallaxbanner {
+    background: url('./media/background.jpg');
+    background-repeat:repeat ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: fit-content;
+    padding: 70px;
+}
 }
 
