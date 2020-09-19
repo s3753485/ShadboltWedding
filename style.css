@@ -187,12 +187,6 @@ body {font-family: Verdana, sans-serif;}
     width:1000px;
 }
 @media (max-width: 700px) {
-    img {
-         position: relative;
-         margin: auto;
-         text-align:center;
-         width: auto;
-    }
     
     #weddingLink {
     background-color: #fff;
