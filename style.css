@@ -3,6 +3,13 @@ html {
     autocorrect:off;
 }
 
+img{
+    max-width: 1000px; 
+    max-height: 500px; 
+    display:block; 
+    margin: auto
+}
+
 div{
     display: block;
 }
