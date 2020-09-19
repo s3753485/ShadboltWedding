@@ -240,5 +240,13 @@ body {font-family: Verdana, sans-serif;}
          text-align:center;
          width: auto;
     }
+    
+    #content {
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+    }
 }
 
