@@ -246,5 +246,12 @@ body {font-family: Verdana, sans-serif;}
     position: relative;
     margin: auto;
     }
+    
+    iframe{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+    }
 }
 
