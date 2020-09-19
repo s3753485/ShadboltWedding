@@ -257,5 +257,12 @@ body {font-family: Verdana, sans-serif;}
     .sticky + .main {
     padding-top: 0px;
     }
+    
+    img{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+    }
 }
 
