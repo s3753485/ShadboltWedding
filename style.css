@@ -253,5 +253,9 @@ body {font-family: Verdana, sans-serif;}
     position: relative;
     margin: auto;
     }
+    
+    .sticky + .main {
+    padding-top: 0px;
+    }
 }
 
