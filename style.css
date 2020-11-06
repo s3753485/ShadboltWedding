@@ -47,6 +47,14 @@ main {
     margin: auto;
 }
 
+#instaContent {
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
 #navbar {
     overflow: hidden;
     background-color: #dab487;
@@ -230,6 +238,14 @@ body {font-family: Verdana, sans-serif;}
     }
     
     #content {
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+    }
+    
+    #instaContent {
     background-color: #fff;
     width: auto;
     height: auto;
