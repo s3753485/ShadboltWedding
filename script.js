@@ -32,3 +32,11 @@
 				  slides[slideIndex-1].style.display = "block";  
 				  setTimeout(showSlides, 5000); // Change image every 2 seconds
 				}
+
+
+/* curator-feed-default-feed-layout */
+(function(){
+var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+i.src = "https://cdn.curator.io/published/424b27de-a291-4b36-aed6-28fe7971c6d4.js";
+e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
