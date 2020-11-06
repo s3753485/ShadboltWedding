@@ -271,6 +271,13 @@ body {font-family: Verdana, sans-serif;}
     margin: auto;
     }
     
+    .crt-popup-container{
+    max-width: 250px; 
+    max-height: 250px; 
+    position: relative;
+    margin: auto;
+    }
+    
     .parallaxbanner {
     background: url('./media/background.jpg');
     background-repeat:repeat ;
